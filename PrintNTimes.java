@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class PrintNTimes {
 
     public static void print(int k, int l) {
@@ -9,6 +11,9 @@ public class PrintNTimes {
     }
 
     public static void main(String[] args) {
-        print(1, 4);
+        int l;
+        Scanner sc=new Scanner(System.in);
+        l=sc.nextInt();
+        print(1, l);
     }
 }
